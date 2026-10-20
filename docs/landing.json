@@ -1,0 +1,60 @@
+{
+  "seo_title": "Text cleaner for macOS",
+  "seo_description": "Free, open-source macOS text cleaner. Paste messy text, toggle 22 cleaners with a live before/after view, and copy the tidy result. Fully offline.",
+  "hero_title_line1": "Paste messy text.",
+  "hero_title_accent": "Copy it clean.",
+  "hero_sub": "TextTidyWindow shows your original and cleaned text side by side, updating live as you toggle cleaners. Press Shift-Command-V to paste, then Shift-Command-C to copy the result.",
+  "features_title": "Cleaners you can stack.",
+  "features_sub": "Twenty-two toggleable cleaners run in an order you control, with your original text left untouched.",
+  "features": [
+    {
+      "icon": "text",
+      "title": "22 toggleable cleaners",
+      "desc": "Strip HTML and decode entities, fix curly quotes, collapse spaces, join hard-wrapped lines, remove duplicates, sort, change case and more."
+    },
+    {
+      "icon": "window",
+      "title": "Live before and after",
+      "desc": "Type, paste or drop a text file into the Original pane and the Result updates as you go. Footer stats show characters, words, lines and what was removed."
+    },
+    {
+      "icon": "sliders",
+      "title": "Reorderable pipeline",
+      "desc": "Drag cleaners in the Pipeline list to change the order they run in, or reset to the default. Find and Replace, with optional regex, runs as the final step."
+    },
+    {
+      "icon": "folder",
+      "title": "Named presets",
+      "desc": "Save your enabled cleaners and their order under a name, apply them from the toolbar, and choose a default preset in Settings."
+    },
+    {
+      "icon": "shield",
+      "title": "Your original stays safe",
+      "desc": "Nothing replaces your source text until you choose Swap Result Into Original, and the swap can be undone. Large inputs over 2 MB trigger a warning."
+    },
+    {
+      "icon": "keyboard",
+      "title": "Keyboard-first workflow",
+      "desc": "Shift-Command-V pastes into the original, Shift-Command-C copies the result, and Command-O opens a text file. You can also auto-paste the clipboard on launch."
+    }
+  ],
+  "permissions_step": "No special permissions are required.",
+  "faq": [
+    {
+      "q": "Is TextTidyWindow really free and open source?",
+      "a": "Yes. It is released under the MIT license and the full source is on GitHub. There are no ads, accounts, analytics or paywalls. If it saves you time, there is an optional Support button that links to Ko-fi."
+    },
+    {
+      "q": "What permissions does it need?",
+      "a": "None beyond the ordinary. It does not need Accessibility, Screen Recording or Microphone access, and it makes no network connections. It reads the clipboard when you paste and reads files you open or drop onto the window."
+    },
+    {
+      "q": "Where is my data stored?",
+      "a": "Only on your Mac. Presets are saved as JSON at ~/Library/Application Support/TextTidyWindow/presets.json, and your current pipeline and settings live in user defaults. Your text is never sent anywhere."
+    },
+    {
+      "q": "Why isn't the app notarized?",
+      "a": "Notarization requires a paid Apple Developer account, and this is a free project. The first time you launch it, right-click the app and choose Open once. You can also build it from source with Xcode."
+    }
+  ]
+}

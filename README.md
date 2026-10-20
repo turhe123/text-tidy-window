@@ -1,5 +1,7 @@
 # TextTidyWindow
 
+**🌐 Website:** [turhe123.github.io/text-tidy-window](https://turhe123.github.io/text-tidy-window/)
+
 Paste messy text, toggle cleaners like fixing line breaks or smart quotes, and copy the tidy result.
 
 [![macOS 14+](https://img.shields.io/badge/macOS-14%2B-blue)](https://github.com/turhe123/text-tidy-window)
@@ -32,7 +34,17 @@ TextTidyWindow is a free, open-source, 100% native, backend-free alternative to 
 
 ## Screenshots
 
-_Screenshots coming soon._
+<p align="center"><img src="docs/screenshots/01-main-window.png" alt="TextTidyWindow main window with cleaner checklist, original pane and cleaned result pane" width="720"></p>
+
+<p align="center"><em>Messy pasted text on the left is cleaned live on the right: HTML stripped, entities decoded, curly quotes made plain, spaces collapsed and duplicate lines removed.</em></p>
+
+<p align="center"><img src="docs/screenshots/02-settings.png" alt="TextTidyWindow Settings window" width="560"></p>
+
+<p align="center"><em>Settings let you pick a default preset, set the editor font size and auto-paste clipboard text on launch.</em></p>
+
+<p align="center"><img src="docs/screenshots/03-find-replace.png" alt="Find and Replace fields applied to the cleaned result" width="560"></p>
+
+<p align="center"><em>The Find Replace row runs as the final pipeline step, here replacing &quot;beta&quot; with &quot;1.0&quot; in the result.</em></p>
 
 ## Install
 

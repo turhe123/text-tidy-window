@@ -1,0 +1,5 @@
+[
+  {"file":"01-main-window.png","caption":"Messy pasted text on the left is cleaned live on the right: HTML stripped, entities decoded, curly quotes made plain, spaces collapsed and duplicate lines removed.","alt":"TextTidyWindow main window with cleaner checklist, original pane and cleaned result pane"},
+  {"file":"02-settings.png","caption":"Settings let you pick a default preset, set the editor font size and auto-paste clipboard text on launch.","alt":"TextTidyWindow Settings window"},
+  {"file":"03-find-replace.png","caption":"The Find & Replace row runs as the final pipeline step, here replacing \"beta\" with \"1.0\" in the result.","alt":"Find and Replace fields applied to the cleaned result"}
+]
